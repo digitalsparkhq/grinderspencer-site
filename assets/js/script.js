@@ -16,7 +16,7 @@ const animateCounters = () => {
   counters.forEach(counter => {
     const updateCount = () => {
       const target = +counter.getAttribute('data-target');
-      const count = +counter.innerText;
+      const count = +counter.innerText.replace("+","");
 
       const increment = target / speed;
 
