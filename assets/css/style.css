@@ -4,30 +4,54 @@ body {
   padding: 0;
 }
 
-/* Navbar */
-.navbar {
-  background: transparent;
-  border-bottom: 1px solid white;
-  transition: background 0.3s;
-}
-.navbar.scrolled {
-  background: white !important;
-  border-bottom: 1px solid #ccc;
-}
-.navbar .nav-link {
-  color: white !important;
-  transition: color 0.3s;
-}
-.navbar .nav-link.active,
-.navbar .btn-danger {
-  background: red;
-  color: white !important;
-}
-.navbar .nav-link:hover {
-  color: red !important;
+/* =========================
+   Navbar
+   ========================= */
+.custom-navbar {
+  background: rgba(0, 0, 0, 0.5); /* transparent with dark overlay */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background 0.3s, border-color 0.3s;
 }
 
-/* Hero Section */
+.custom-navbar .nav-link {
+  color: #fff !important; /* white text when transparent */
+  transition: color 0.3s, background 0.3s;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #dc3545 !important; /* red hover */
+}
+
+/* Active menu item */
+.custom-navbar .nav-link.active {
+  background-color: #dc3545;
+  border-radius: 4px;
+  color: #fff !important;
+}
+
+/* Sticky navbar (on scroll) */
+.custom-navbar.sticky {
+  background: #fff !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.custom-navbar.sticky .nav-link {
+  color: #000 !important; /* black when sticky */
+}
+
+.custom-navbar.sticky .nav-link.active {
+  background-color: #dc3545;
+  color: #fff !important;
+}
+
+/* Mobile dropdown separator */
+.navbar-nav .nav-item + .nav-item {
+  border-top: 1px solid #dc3545;
+}
+
+/* =========================
+   Hero Section
+   ========================= */
 .hero {
   position: relative;
   text-align: center;
@@ -36,33 +60,43 @@ body {
   justify-content: center;
 }
 
-/* Footer */
+/* =========================
+   Footer
+   ========================= */
 .footer {
   background: #000;
   color: white;
 }
+
 .footer .red-underline {
   border-bottom: 2px solid red;
   display: inline-block;
 }
+
 .footer a {
   color: white;
   transition: color 0.3s;
 }
+
 .footer a:hover {
   color: red;
 }
+
 .footer .social-icons a {
   margin-right: 10px;
 }
 
-/* Counters */
+/* =========================
+   Counters
+   ========================= */
 .counter {
   font-size: 2rem;
   font-weight: bold;
 }
 
-/* Gym images hover zoom */
+/* =========================
+   Gym images hover zoom
+   ========================= */
 .hover-zoom {
   transition: transform 0.3s ease;
 }
@@ -70,7 +104,9 @@ body {
   transform: scale(1.05);
 }
 
-/* Mobile Footer */
+/* =========================
+   Mobile Footer
+   ========================= */
 @media (max-width: 768px) {
   .footer .container {
     flex-direction: column;
