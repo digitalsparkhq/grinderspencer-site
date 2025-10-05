@@ -118,7 +118,13 @@ body {
 .hover-zoom:hover {
   transform: scale(1.05);
 }
-
+/* Ensure all feature images align in height */
+.feature-img {
+  height: 250px;          /* adjust as needed */
+  width: 100%;
+  object-fit: cover;      /* crops to fill without distortion */
+  border-radius: 8px;     /* optional for rounded look */
+}
 /* Mobile Footer */
 @media (max-width: 768px) {
   .footer .container {
