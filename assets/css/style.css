@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background: transparent;
+  border-bottom: 1px solid white;
+}
+.navbar.scrolled {
+  background: white;
+  border-bottom: 1px solid #ccc;
+}
+.navbar .nav-link {
+  color: white;
+}
+.navbar .nav-link.active,
+.navbar .btn-danger {
+  background: red;
+  color: white;
+}
+
+/* Footer */
+.footer {
+  background: #000;
+}
+.footer .red-underline {
+  border-bottom: 2px solid red;
+  display: inline-block;
+}
+.footer a {
+  color: white;
+}
+.footer a:hover {
+  color: red;
+}
+
+/* Counters */
+.counter {
+  font-size: 2rem;
+  font-weight: bold;
+}
