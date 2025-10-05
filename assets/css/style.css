@@ -18,7 +18,10 @@ body {
 .top-header a:hover {
   color: #ffc107;
 }
-
+.top-header .container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 /* Navbar default (transparent over hero) */
 .navbar {
   background: rgba(0, 0, 0, 0.5) !important; /* true transparent black */
