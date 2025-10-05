@@ -8,6 +8,17 @@ window.addEventListener("scroll", function() {
   }
 });
 
+// Sticky Navbar effect
+window.addEventListener("scroll", function() {
+  const navbar = document.getElementById("mainNavbar");
+  if (window.scrollY > 50) {
+    navbar.classList.add("sticky");
+  } else {
+    navbar.classList.remove("sticky");
+  }
+});
+
+
 // Counter effect
 const counters = document.querySelectorAll('.counter');
 const speed = 200;
