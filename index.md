@@ -38,15 +38,15 @@ description: "Your journey to strength, wellness, and transformation starts here
   <div class="container">
     <div class="row g-3">
       <div class="col-md-4 position-relative">
-        <img src="{{ '/assets/images/gym1.jpg' | relative_url }}" class="img-fluid" alt="Gym Floors">
+        <img src="{{ '/assets/images/gym1.jpg' | relative_url }}" class="img-fluid feature-img" alt="Gym Floors">
         <h4 class="position-absolute top-50 start-50 translate-middle text-white">Gym Floors</h4>
       </div>
       <div class="col-md-4 position-relative">
-        <img src="{{ '/assets/images/gym2.jpg' | relative_url }}" class="img-fluid" alt="Weights">
+        <img src="{{ '/assets/images/gym2.jpg' | relative_url }}" class="img-fluid feature-img" alt="Weights">
         <h4 class="position-absolute top-50 start-50 translate-middle text-white">Weights</h4>
       </div>
       <div class="col-md-4 position-relative">
-        <img src="{{ '/assets/images/gym3.jpg' | relative_url }}" class="img-fluid" alt="Cardio">
+        <img src="{{ '/assets/images/gym3.jpg' | relative_url }}" class="img-fluid feature-img" alt="Cardio">
         <h4 class="position-absolute top-50 start-50 translate-middle text-white">Cardio</h4>
       </div>
     </div>
@@ -122,9 +122,9 @@ description: "Your journey to strength, wellness, and transformation starts here
   <div class="container">
     <h2 class="mb-5">We also have an amazing selection of cardio equipment</h2>
     <div class="row g-3">
-      <div class="col-md-4"><img src="{{ '/assets/images/gym1.jpg' | relative_url }}" class="img-fluid hover-zoom" alt="Equipment"></div>
-      <div class="col-md-4"><img src="{{ '/assets/images/gym2.jpg' | relative_url }}" class="img-fluid hover-zoom" alt="Equipment"></div>
-      <div class="col-md-4"><img src="{{ '/assets/images/gym3.jpg' | relative_url }}" class="img-fluid hover-zoom" alt="Equipment"></div>
+      <div class="col-md-4"><img src="{{ '/assets/images/gym1.jpg' | relative_url }}" class="img-fluid hover-zoom feature-img" alt="Equipment"></div>
+      <div class="col-md-4"><img src="{{ '/assets/images/gym2.jpg' | relative_url }}" class="img-fluid hover-zoom feature-img" alt="Equipment"></div>
+      <div class="col-md-4"><img src="{{ '/assets/images/gym3.jpg' | relative_url }}" class="img-fluid hover-zoom feature-img" alt="Equipment"></div>
     </div>
   </div>
 </section>
