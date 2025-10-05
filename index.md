@@ -61,8 +61,8 @@ title: Home
 </section>
 
 <!-- Services Section -->
-<section id="services" class="py-5 bg-light">
-  <div class="container text-center">
+<section id="services" class="py-5 bg-light text-center">
+  <div class="container">
     <h2 class="mb-4">Our Services</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
