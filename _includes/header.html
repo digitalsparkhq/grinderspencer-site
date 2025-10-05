@@ -22,18 +22,24 @@
 </header>
 
 <nav class="navbar navbar-expand-lg sticky-top">
-  <div class="container">
-    <a class="navbar-brand text-white" href="{{ '/' | relative_url }}">SSFH</a>
+  <div class="container-fluid">
+    <!-- Removed duplicate logo here -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item"><a class="nav-link {% if page.title == 'Home' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a></li>
-        <li class="nav-item"><a class="nav-link {% if page.title == 'About' %}active{% endif %}" href="{{ '/about' | relative_url }}">About</a></li>
-        <li class="nav-item"><a class="nav-link {% if page.title == 'Contact' %}active{% endif %}" href="{{ '/contact' | relative_url }}">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/#services' | relative_url }}">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="{{ '/#classes' | relative_url }}">Classes</a></li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.title contains 'Home' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.title == 'About' %}active{% endif %}" href="{{ '/about' | relative_url }}">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link {% if page.title == 'Contact' %}active{% endif %}" href="{{ '/contact' | relative_url }}">Contact</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}#classes">Classes</a></li>
       </ul>
       <button class="btn btn-danger signup-btn">Sign Up <i class="fas fa-arrow-right"></i></button>
     </div>
