@@ -107,8 +107,8 @@ description: "Your journey to strength, wellness, and transformation starts here
     <h2 class="mb-4">Our Classes</h2>
     <div class="row align-items-center">
       <div class="col-md-6">
-        <p>Our group classes are designed for all fitness levels, focusing on strength, endurance, and fun.</p>
-        <p>Whether it’s high-intensity interval training or calming wellness classes, we have something for everyone.</p>
+        <p>Our group classes are designed for all fitness levels, focusing on strength, endurance, and fun. With personalized attention in a group setting, you’ll find motivation and energy that keeps you coming back.</p>
+        <p>Whether it’s high-intensity interval training or calming wellness classes, we have something for everyone. Join us and become part of a supportive community dedicated to achieving results together.</p>
       </div>
       <div class="col-md-6">
         <img src="{{ '/assets/images/gym4.jpg' | relative_url }}" class="img-fluid" alt="Classes">
