@@ -33,10 +33,10 @@
           <a class="nav-link {% if page.title contains 'Home' %}active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.title contains 'About' %}active{% endif %}" href="{{ '/about.md' | relative_url }}">About</a>
+          <a class="nav-link {% if page.title == 'About' %}active{% endif %}" href="{{ '/about' | relative_url }}">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {% if page.title contains 'Contact' %}active{% endif %}" href="{{ '/contact.md' | relative_url }}">Contact</a>
+          <a class="nav-link {% if page.title == 'Contact' %}active{% endif %}" href="{{ '/contact' | relative_url }}">Contact</a>
         </li>
         <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}#services">Services</a></li>
         <li class="nav-item"><a class="nav-link" href="{{ '/' | relative_url }}#classes">Classes</a></li>
