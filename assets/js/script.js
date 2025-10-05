@@ -1,23 +1,22 @@
-// Sticky Navbar effect
-window.addEventListener("scroll", function() {
-  const navbar = document.getElementById("mainNavbar");
+// Navbar scroll effect
+window.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".navbar");
   if (window.scrollY > 50) {
-    navbar.classList.add("sticky");
+    navbar.classList.add("scrolled");
   } else {
-    navbar.classList.remove("sticky");
+    navbar.classList.remove("scrolled");
   }
 });
 
-
 // Counter effect
-const counters = document.querySelectorAll('.counter');
+const counters = document.querySelectorAll(".counter");
 const speed = 200;
 
 const animateCounters = () => {
-  counters.forEach(counter => {
+  counters.forEach((counter) => {
     const updateCount = () => {
-      const target = +counter.getAttribute('data-target');
-      const count = +counter.innerText.replace("+","");
+      const target = +counter.getAttribute("data-target");
+      const count = +counter.innerText.replace("+", "");
 
       const increment = target / speed;
 
@@ -33,8 +32,8 @@ const animateCounters = () => {
 };
 
 let statsShown = false;
-window.addEventListener('scroll', () => {
-  const statsSection = document.querySelector('#stats');
+window.addEventListener("scroll", () => {
+  const statsSection = document.querySelector("#stats");
   if (statsSection && !statsShown) {
     const sectionPos = statsSection.getBoundingClientRect().top;
     const screenPos = window.innerHeight;
