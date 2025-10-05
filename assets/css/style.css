@@ -19,11 +19,10 @@ body {
   color: #ffc107;
 }
 
-/* Navbar */
-/* Navbar */
+/* Navbar default (transparent over hero) */
 .navbar {
-  background: rgba(0,0,0,0.4) !important; /* see-through black */
-  border-bottom: 1px solid rgba(255,255,255,0.4);
+  background: rgba(0, 0, 0, 0.5) !important; /* true transparent black */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   transition: background 0.3s;
 }
 
