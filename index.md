@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: "Home | Stronger Self Fitness"
+description: "Your journey to strength, wellness, and transformation starts here."
 ---
 
 <!-- Hero Section -->
