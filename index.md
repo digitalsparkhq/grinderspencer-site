@@ -16,7 +16,7 @@ description: "Your journey to strength, wellness, and transformation starts here
 <!-- Videos Section -->
 <section class="py-5 text-center">
   <div class="container">
-    <h2><span class="red-underline">Are you ready for the Wellness Experience?</span></h2>
+    <h2 class="section-heading">Are you ready for the Wellness Experience?</h2>
     <p class="mb-4">We don’t just train bodies — we transform lives through mindset, discipline, and health.</p>
     <div class="row">
       <div class="col-md-6 mb-4">
@@ -56,7 +56,7 @@ description: "Your journey to strength, wellness, and transformation starts here
 <!-- Services Section -->
 <section id="services" class="py-5 bg-light text-center">
   <div class="container">
-    <h2 class="mb-4"><span class="red-underline">Our Services</span></h2>
+    <h2 class="mb-4 section-heading">Our Services</h2>
     <div class="row">
       <div class="col-md-4 mb-4">
         <img src="{{ '/assets/images/service1.jpg' | relative_url }}" class="img-fluid mb-3" alt="Personal Training">
@@ -104,7 +104,7 @@ description: "Your journey to strength, wellness, and transformation starts here
 <!-- Classes Section -->
 <section id="classes" class="py-5">
   <div class="container">
-    <h2 class="mb-4"><span class="red-underline">Our Classes</span></h2>
+    <h2 class="mb-4 section-heading">Our Classes</h2>
     <div class="row align-items-center">
       <div class="col-md-6">
         <p>Our group classes are designed for all fitness levels, focusing on strength, endurance, and fun. With personalized attention in a group setting, you’ll find motivation and energy that keeps you coming back.</p>
