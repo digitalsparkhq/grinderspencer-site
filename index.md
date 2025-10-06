@@ -5,11 +5,13 @@ description: "Your journey to strength, wellness, and transformation starts here
 ---
 
 <!-- Hero Section -->
-<section class="hero d-flex align-items-center text-center text-white" style="background: url('{{ '/assets/images/hero-bg.jpg' | relative_url }}') no-repeat center center/cover; height:100vh;">
-  <div class="container">
-    <h1>Welcome to Stronger Self Fitness and Health</h1>
-    <p>Your journey to strength, wellness, and transformation starts here.</p>
-    <a href="#contact" class="btn btn-danger mt-3">Sign Up Now</a>
+<section class="hero d-flex align-items-center justify-content-center text-center">
+  <div class="hero-content shadow-box p-4">
+    <h1 class="text-white">Welcome to Stronger Self Fitness and Health</h1>
+    <p class="text-white">Your journey to strength, wellness, and transformation starts here.</p>
+    <button class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#signupModal">
+      Sign Up Now<i class="fas fa-arrow-right"></i>
+    </button>
   </div>
 </section>
 
