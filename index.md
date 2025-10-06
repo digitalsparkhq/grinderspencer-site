@@ -88,7 +88,7 @@ description: "Your journey to strength, wellness, and transformation starts here
       </div>
       <div class="col-md-3">
         <h3 class="counter" data-target="500">0</h3>
-        <p>Kilos Lost</p>
+        <p>Pounds Lost</p>
       </div>
       <div class="col-md-3">
         <h3 class="counter" data-target="50">0</h3>
