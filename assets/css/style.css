@@ -125,6 +125,26 @@ body {
   object-fit: cover;      /* crops to fill without distortion */
   border-radius: 8px;     /* optional for rounded look */
 }
+
+.section-heading {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.section-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 60px;            /* length of the underline */
+  height: 3px;            /* thickness */
+  background: #dc3545;    /* red */
+  border-radius: 2px;
+}
+
 /* Mobile Footer */
 @media (max-width: 768px) {
   .footer .container {
