@@ -10,7 +10,7 @@ description: "Your journey to strength, wellness, and transformation starts here
     <h1>Welcome to Stronger Self Fitness and Health</h1>
     <p>Your journey to strength, wellness, and transformation starts here.</p>
     <button class="btn btn-danger mt-3" data-bs-toggle="modal" data-bs-target="#signupModal">
-      Sign Up Now<i class="fas fa-arrow-right"></i>
+      Sign Up Now <i class="fas fa-arrow-right"></i>
     </button>
   </div>
 </section>
