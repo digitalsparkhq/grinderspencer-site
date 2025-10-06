@@ -84,6 +84,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+.hero-content.shadow-box {
+  background: rgb(0 0 0 / 50%); /* dark overlay */
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* soft dark shadow */
+  max-width: 700px;
+}
+.hero h1, 
+.hero p {
+  margin: 0 0 10px;
+}
 
 /* Footer */
 .footer {
